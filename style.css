@@ -14,6 +14,7 @@ body
   background-size: auto;
   opacity: 80%;
 	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+  color: #ffffff;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -87,8 +88,13 @@ Layout styles
 .header
 {
 	color: #fff;
-	background: #999;
+	background-color: rgba(0, 0, 0, 0.4);
 	padding: 1em 1.25em;
+  font-size: 2em;
+  text-align: center;
+	font-style: ;
+  border: 5px solid #ffffff;
+	margin: 150px 0;
 }
 
 .header-heading { margin: 0; }
