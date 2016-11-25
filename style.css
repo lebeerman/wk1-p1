@@ -81,7 +81,7 @@ Layout styles
 
 .container
 {
-	max-width: 50em;
+	max-width: 65em;
 	margin: 0 auto;
 }
 
@@ -92,7 +92,6 @@ Layout styles
 	padding: 1em 1.25em;
   font-size: 2em;
   text-align: center;
-	font-style: ;
   border: 5px solid #ffffff;
 	margin: 150px 0;
 }
@@ -114,7 +113,7 @@ Layout styles
 .footer
 {
 	color: #fff;
-	background: #000;
+	background: transparent;
 	padding: 1em 1.25em;
 }
 
@@ -168,6 +167,14 @@ Nav
 /* -----------------------
 Single styles
 ------------------------*/
+
+#countdown {
+	text-decoration: underline;
+	font-size: 2em;
+	font-family: fantasy;
+	color: red;
+
+}
 
 .img-responsive { max-width: 100%; }
 

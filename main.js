@@ -1,7 +1,6 @@
-<script>
 
 
-var end = new Date('11/08/2012 11:59 PM');
+var end = new Date('11/08/2016 11:59 PM');
 
   var _second = 1000;
   var _minute = _second * 60;
@@ -28,7 +27,7 @@ var end = new Date('11/08/2012 11:59 PM');
       document.getElementById('countdown').innerHTML += hours + 'hrs ';
       document.getElementById('countdown').innerHTML += minutes + 'mins ';
       document.getElementById('countdown').innerHTML += seconds + 'secs';
-  }
+  };
 
   timer = setInterval(showRemaining, 1000);
-</script>
+  showRemaining;
